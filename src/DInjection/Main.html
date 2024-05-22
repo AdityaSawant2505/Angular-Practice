@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<h2>Arithmatic Operation</h2>
+<table>
+    <tr>
+        <th>Num 1:</th>
+        <td><input type="text" [(ngModel)]="num1" ></td>
+    </tr>
+    <tr>
+        <th>Num 2:</th>
+        <td><input type="text" [(ngModel)]="num2" ></td>
+    </tr>
+    <tr>
+        <th colspan="2">
+            <input type="button" value="Arith" (click)="Calculation(num1,num2)" >
+        </th>
+    </tr>
+</table>
+<h2>{{addresult|uppercase}}</h2>
+<h2>{{subresult|lowercase}}</h2>
+<h2>{{mulresult}}</h2>
+<h2>{{divresult}}</h2>
